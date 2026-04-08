@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
-    return sorted(a_dictionary,key=a_dictionary.keys)
+    print(sorted(a_dictionary,key=a_dictionary.keys))
