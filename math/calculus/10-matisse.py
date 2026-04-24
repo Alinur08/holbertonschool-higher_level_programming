@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module for polynomial derivative calculation"""
 
+
 def poly_derivative(poly):
     if not isinstance(poly, list) or len(poly) == 0:
         return None
