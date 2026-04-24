@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def summation_i_squared(n):
-    if n < 0:
+    if not isinstance(n, int) or n < 0:
         return None
     if n == 0:
         return 0
