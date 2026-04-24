@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def summation_i_squared(n):
     if isinstance(n, int):
         s = 0
