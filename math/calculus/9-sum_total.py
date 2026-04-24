@@ -4,5 +4,6 @@ def summation_i_squared(n):
         return None
     if n == 0:
         return 0
-    # Add n squared to the sum of the previous squares
-    return summation_i_squared(n - 1) + (n ** 2)
+    
+    # Using the sum of squares formula
+    return (n * (n + 1) * (2 * n + 1)) // 6
