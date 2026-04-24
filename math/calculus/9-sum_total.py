@@ -2,8 +2,6 @@
 def summation_i_squared(n):
     if not isinstance(n, int) or n < 0:
         return None
-    if n == 0:
-        return 0
     
     # Using the sum of squares formula
     return (n * (n + 1) * (2 * n + 1)) // 6
