@@ -4,4 +4,4 @@ def summation_i_squared(n):
         return None
     if n == 0 or n == 1:
         return 1    
-    return summation_i_squared(n - 1)*n
+    return summation_i_squared(n - 1) * n ** 2
