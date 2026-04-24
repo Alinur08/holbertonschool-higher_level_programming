@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-def summation_i_squared(n):
-    if isinstance(n, int):
-        s = 0
-        i = 1
-        while i <= n:
-            s += i**2
-            i += 1
-        return s
-    return None
+def count_down(n):
+    if not isinstance(n, int):
+        return
+    if n == 0 or n == 1:
+        return 1    
+    return count_down(n - 1)*n
