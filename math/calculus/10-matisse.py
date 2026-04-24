@@ -3,6 +3,7 @@
 
 
 def poly_derivative(poly):
+    """Calculates sum from i=1 to n of i^2"""
     if not isinstance(poly, list) or len(poly) == 0:
         return None
 
