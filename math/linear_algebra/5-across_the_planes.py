@@ -3,7 +3,7 @@
 
 def add_matrices2D(mat1, mat2):
     """Adding arrays"""
-    if not all(len(mat1) == len(mat2) and len(mat1[0]) == len(mat2[0])):
+    if not (len(mat1) == len(mat2) and len(mat1[0]) == len(mat2[0])):
         return None
     mat = []
     for i in range(len(mat1)):
