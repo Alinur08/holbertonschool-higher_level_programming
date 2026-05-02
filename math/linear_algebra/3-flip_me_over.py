@@ -3,7 +3,7 @@
 
 
 def matrix_transpose(matrix):
-    """Return transpose of matrix"""
+    """Return transpose of matrix4-line_up.py"""
     transpose = []
     for i in range(len(matrix[0])):
         new_row = []
