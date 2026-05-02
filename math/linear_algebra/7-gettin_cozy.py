@@ -12,7 +12,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
     elif axis == 1:
         if len(mat1) != len(mat2):
             return None
-        mat.append(mat1[i]+mat2[i] for i in range(len(mat1))) 
+        mat = [mat1[i] + mat2[i] for i in range(len(mat1))] 
     else:
         return None
     return mat
