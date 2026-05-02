@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
+"""Module to perform matrix operations"""
+
+
 def matrix_transpose(matrix):
+    """Return transpose of matrix"""
     transpose = []
     for i in range(len(matrix[0])):
         new_row = []
