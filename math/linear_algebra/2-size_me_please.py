@@ -1,3 +1,7 @@
 #!/usr/bin/env python3
 def matrix_shape(matrix):
-    return [len(matrix),len(matrix[0])]
+    shape = []
+    while len(matrix) != 0:
+        shape.append(len(matrix))
+        matrix = matrix[0]
+    return shape
