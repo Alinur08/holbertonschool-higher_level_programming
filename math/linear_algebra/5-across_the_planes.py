@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module to perform matrix operations"""
 
+
 def add_matrices2D(mat1, mat2):
     """Adding arrays"""
     if not (len(mat1) == len(mat2) and len(mat1[0]) == len(mat2[0])):
